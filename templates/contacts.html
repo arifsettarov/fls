@@ -1,0 +1,30 @@
+{% block contacts%}
+            <p>Выберите район:</p>
+            <label for="" class="adres">
+                <select name="city" id="city" >
+                    <option value="Симферополь">Симферополь</option>
+                    <option value="Севастополь">Севастополь</option>
+                </select>
+                <select name="district" id="district">
+                    <option value="Центр">Центр</option>
+                    <option value="Ж/Д">Ж/Д</option>
+                    <option value="Москольцо">Москольцо</option>
+                    <option value="Севастопольскя">Севастопольская</option>
+                    <option value="пл.Куйбышева">пл.Куйбышева</option>
+                    <option value="Марьино">Марьино</option>
+                </select>
+            </label>
+            <p>Введите ваш номер телефона:</p>
+            <label for="">
+                <input type="text" id="phone" name="phone">
+            </label>
+             <p>Введите ваш email:</p>
+            <label for="">
+                <input type="email" name = "email">
+            </label>
+
+                <div class="create-order">
+                    <input type="submit" value="Оформить">
+                </div>
+            {% csrf_token %}
+        {%endblock%}

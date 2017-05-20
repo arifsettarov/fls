@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+
+.header-container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+.header{
+    margin-top: 25px;
+    width: 100%;
+    height: 80px;
+    background: #ffef8b;
+}
+img.logo-image{
+    padding: 10px;
+    width: 200px;
+    line-height: 80px;
+
+}
+
+.logo, .enter{
+    display: inline-block;
+}
+
+.enter{
+    width: 150px;
+    float: right;
+    text-align: center;
+}
+.enter-button{
+    padding: 10px 20px;
+    line-height: 80px;
+    width: 150px;
+    border:2px solid #555;
+    color:#555;
+    border-radius: 50px;
+    font-weight: 600;
+}
+.categories{
+    width:1175px;
+    margin: 0 auto;
+    margin-top: 50px;
+
+
+}
+
+.categories h3{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.enter-button:hover{
+    color:#ffef8b;
+    background: #555;
+}
+section.object{
+    border-radius: 5px;
+    display: inline-block;
+    margin: 20px 10px;
+    width: 270px;
+    height: 220px;
+    overflow: hidden;
+    box-shadow: 0 0 3px 1px rgba(0,0,0,0.3) ;
+
+}
+
+.obj-image{
+    position: relative;
+    z-index: 0;
+    width: 270px;
+    height: 180px;
+}
+
+.info{
+    position: relative;
+    z-index: 1;
+    margin-top: -15px ;
+    width: 270px;
+    height: 55px;
+    background: #f8f8f8;
+    overflow: hidden;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.info h6{
+    color:coral;
+    padding: 15px 0 0 10px;
+    font-weight: 800;
+
+    font-family:"Comfortaa",sans-serif;
+
+}
+
+.info:hover{
+    transition: all, 0.5s;
+    margin-top: -70px;
+    height: 110px;
+}
+.info .link{
+
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+
+.info a{
+
+    width: 150px;
+    height: 40px;
+    margin: 0 auto;
+    text-align: center;
+    color: #f8f8f8;
+    border:3px solid #555;
+    background: #555;
+    padding: 10px 10px ;
+    border-radius: 5px;
+}
+
+.order_form{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.adres>select{
+    display: inline-block;
+    width: 49.777%;
+}
+.create-order{
+    text-align: center;
+    margin: 0 auto;
+}
+.create-order>input{
+    border: solid coral;
+    width:200px;
+    height: 50px;
+    background:coral;
+    font-size: 24px;
+    font-weight: 600;
+    color: #ffef8b;
+}
+
+.create-order>input:hover{
+    cursor: pointer;
+}

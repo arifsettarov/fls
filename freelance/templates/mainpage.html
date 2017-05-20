@@ -1,0 +1,23 @@
+{% extends "index.html" %}
+{% load staticfiles %}
+{% block content%}
+    <div class="container">
+        <div class="categories">
+        <h3>РЕМОНТЫЕ, ОТДЕЛОЧНЫЕ И СТРОИТЕЛЬНЫЕ РАБОТЫ</h3>
+        {% for  object in objects %}
+            <section class="object">
+                <img src="{% static "images/remont"%}/{{ object.image }}" alt="" class="obj-image">
+
+                <div class="info">
+                    <h6>{{ object.name }}</h6>
+                    <div class="onhover">
+                        <div class="link">
+                            <a href="{{object.link}}">Оформить заказ</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        {% endfor %}
+        </div>
+    </div>
+{% endblock %}

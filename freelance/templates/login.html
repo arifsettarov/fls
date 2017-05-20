@@ -1,0 +1,11 @@
+{% extends "index.html" %}
+{% block content %}
+    <form action="/login/check/" method="post">
+        {% csrf_token %}
+        <h2>Вход:</h2>
+        {{ form }}
+        <input type="submit" class="button" value="Вход">
+    <a href="/register/">Регистрация</a>
+    </form>
+
+{% endblock %}

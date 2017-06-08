@@ -2,17 +2,80 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f1cc094-bb6b-44b7-8525-217d4eef2c01" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/logo.png" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Новый точечный рисунок.txt" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gipsokartonnyie-peregorodki1.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/beton.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/osteklenie.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/potolki.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/remont.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/remont/Gipsokartonnyie-peregorodki1.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/remont/beton.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/remont/design.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/remont/osteklenie.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/remont/potolki.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/remont/remont.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/remont/stroika_pod_kluch.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/remont/vannaya.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stroika_pod_kluch.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vannaya.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/freelance/migrations/0025_auto_20170528_1254.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/freelance/migrations/0026_auto_20170528_1308.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/freelance/migrations/0027_auto_20170528_1310.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/freelance/migrations/0028_auto_20170528_1344.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/freelance/migrations/0029_auto_20170528_1417.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/freelance/migrations/0030_uteplenie.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/freelance/migrations/0031_auto_20170528_1530.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/freelance/migrations/0032_otoplenie.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/freelance/migrations/0033_osteklenie_balkonov.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/freelance/migrations/0034_redecorating.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/freelance/migrations/0035_auto_20170529_1324.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/freelance/migrations/0036_krovlya.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/freelance/migrations/0037_poli.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/freelance/migrations/0038_auto_20170529_1506.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/freelance/migrations/0039_santehnika.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/freelance/migrations/0040_potolki.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/freelance/migrations/0041_gipsokarton_peregorodki.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/freelance/migrations/0042_remont_vannoy.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/freelance/migrations/0043_beton_natyazhnoi_potolok_oboi_reshetki.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/freelance/migrations/0044_auto_20170608_1504.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/freelance/migrations/0045_delete_workers.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/freelance/migrations/0046_workers.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/freelance/templates/Orders/remont/beton.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/freelance/templates/Orders/remont/disign_interier.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/freelance/templates/Orders/remont/gipsokarton_peregorodki.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/freelance/templates/Orders/remont/kosmetik_remont.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/freelance/templates/Orders/remont/krovlya.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/freelance/templates/Orders/remont/natyazhnoi_potolok.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/freelance/templates/Orders/remont/oboi.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/freelance/templates/Orders/remont/osteklenie_balkonov.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/freelance/templates/Orders/remont/otoplenie.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/freelance/templates/Orders/remont/plitka.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/freelance/templates/Orders/remont/pod_kluch.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/freelance/templates/Orders/remont/poli.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/freelance/templates/Orders/remont/potolki.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/freelance/templates/Orders/remont/remont_vannoy.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/freelance/templates/Orders/remont/reshetki.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/freelance/templates/Orders/remont/santehnika.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/freelance/templates/Orders/remont/gas_systems.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/freelance/templates/Orders/remont/parket.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/freelance/templates/Orders/remont/plitochnie_raboti.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/freelance/templates/Orders/remont/remont_krishi.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/freelance/templates/Orders/remont/remont_pomesheniy.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/freelance/templates/Orders/remont/vodoprovod.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/freelance/templates/create_order.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/352bd6d3-4798-4c2d-be91-9eb370264b59.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/352bd6d3-4798-4c2d-be91-9eb370264b59.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FLS/settings.py" afterPath="$PROJECT_DIR$/FLS/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freelance/admin.py" afterPath="$PROJECT_DIR$/freelance/admin.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freelance/forms.py" afterPath="$PROJECT_DIR$/freelance/forms.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freelance/models.py" afterPath="$PROJECT_DIR$/freelance/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freelance/templates/mainpage.html" afterPath="$PROJECT_DIR$/freelance/templates/mainpage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freelance/templates/Orders/remont/obshivka.html" afterPath="$PROJECT_DIR$/freelance/templates/Orders/remont/obshivka.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freelance/templates/Orders/remont/pokraska_sten.html" afterPath="$PROJECT_DIR$/freelance/templates/Orders/remont/pokraska_sten.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freelance/templates/login.html" afterPath="$PROJECT_DIR$/freelance/templates/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freelance/templates/register.html" afterPath="$PROJECT_DIR$/freelance/templates/register.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freelance/urls.py" afterPath="$PROJECT_DIR$/freelance/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freelance/views.py" afterPath="$PROJECT_DIR$/freelance/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/styls.css" afterPath="$PROJECT_DIR$/static/css/styls.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,34 +104,6 @@
         <option name="myItemId" value="db" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="Workers_region" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="db" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="Workers" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="db" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
     </PATH>
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
@@ -76,98 +111,113 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/freelance/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="91" column="60" lean-forward="false" selection-start-line="91" selection-start-column="60" selection-end-line="91" selection-end-column="60" />
-              <folding>
-                <element signature="e#0#36#0" expanded="true" />
-                <element signature="e#339#1693#0" expanded="false" />
-                <element signature="e#1722#1914#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FLS/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/freelance/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gas_systems.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/freelance/templates/Orders/remont/gas_systems.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding>
-                <element signature="n#block#1;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="obshivka.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/freelance/templates/Orders/remont/obshivka.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-              <folding>
-                <element signature="n#block#1;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pokraska_sten.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/freelance/templates/Orders/remont/pokraska_sten.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="77" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="24" selection-end-column="77" />
-              <folding>
-                <element signature="n#block#1;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="79" lean-forward="false" selection-start-line="12" selection-start-column="79" selection-end-line="12" selection-end-column="79" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/freelance/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5215724">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/freelance/urls.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="102">
+                  <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/freelance/admin.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="357">
+                  <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="28" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/freelance/views.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="408">
+                  <caret line="36" column="44" lean-forward="true" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
+                  <folding>
+                    <element signature="e#0#36#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="register.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/freelance/templates/register.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="476">
+                  <caret line="31" column="70" lean-forward="false" selection-start-line="31" selection-start-column="64" selection-end-line="31" selection-end-column="70" />
+                  <folding>
+                    <element signature="n#style#0;n#label#6;n#form#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#label#7;n#form#0;n#!!top" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="otoplenie.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/freelance/templates/Orders/remont/otoplenie.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="102">
+                  <caret line="76" column="22" lean-forward="false" selection-start-line="75" selection-start-column="8" selection-end-line="76" selection-end-column="22" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/templates/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="306">
+                  <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="styls.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/static/css/styls.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="717">
+                  <caret line="150" column="6" lean-forward="false" selection-start-line="150" selection-start-column="1" selection-end-line="150" selection-end-column="6" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/freelance/forms.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="221">
+                  <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/freelance/models.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="947">
+                  <caret line="317" column="0" lean-forward="false" selection-start-line="317" selection-start-column="0" selection-end-line="332" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#139#445#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -190,24 +240,43 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/freelance/templates/register.html" />
         <option value="$PROJECT_DIR$/static/css/style.css" />
         <option value="$PROJECT_DIR$/freelance/templates/mainpage.html" />
         <option value="$PROJECT_DIR$/static/css/styles.css" />
-        <option value="$PROJECT_DIR$/static/css/styls.css" />
-        <option value="$PROJECT_DIR$/freelance/admin.py" />
-        <option value="$PROJECT_DIR$/freelance/forms.py" />
         <option value="$PROJECT_DIR$/FLS/settings.py" />
         <option value="$PROJECT_DIR$/static/js/cityes.js" />
-        <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/templates/contacts.html" />
         <option value="$PROJECT_DIR$/freelance/templates/Orders/pokraska_sten.html" />
         <option value="$PROJECT_DIR$/freelance/templates/Orders/obshivka.html" />
         <option value="$PROJECT_DIR$/freelance/templates/Orders/remont/gas_systems.html" />
+        <option value="$PROJECT_DIR$/freelance/templates/Orders/remont/pokraska_sten.html" />
         <option value="$PROJECT_DIR$/freelance/templates/Orders/remont/obshivka.html" />
-        <option value="$PROJECT_DIR$/freelance/models.py" />
-        <option value="$PROJECT_DIR$/freelance/views.py" />
+        <option value="$PROJECT_DIR$/freelance/templates/Orders/remont/disign_interier.html" />
+        <option value="$PROJECT_DIR$/freelance/templates/Orders/remont/otoplenie.html" />
+        <option value="$PROJECT_DIR$/freelance/templates/Orders/remont/osteklenie_balkonov.html" />
+        <option value="$PROJECT_DIR$/freelance/templates/Orders/remont/kosmetik_remont.html" />
+        <option value="$PROJECT_DIR$/freelance/templates/Orders/remont/plitka.html" />
+        <option value="$PROJECT_DIR$/freelance/templates/Orders/remont/krovlya.html" />
+        <option value="$PROJECT_DIR$/freelance/templates/Orders/remont/poli.html" />
+        <option value="$PROJECT_DIR$/freelance/templates/Orders/remont/pod_kluch.html" />
+        <option value="$PROJECT_DIR$/freelance/templates/Orders/remont/santehnika.html" />
+        <option value="$PROJECT_DIR$/freelance/templates/Orders/remont/potolki.html" />
+        <option value="$PROJECT_DIR$/freelance/templates/Orders/remont/gipsokarton_peregorodki.html" />
+        <option value="$PROJECT_DIR$/freelance/templates/Orders/remont/remont_vannoy.html" />
+        <option value="$PROJECT_DIR$/freelance/templates/Orders/reshetki.html" />
+        <option value="$PROJECT_DIR$/freelance/templates/Orders/remont/oboi.html" />
+        <option value="$PROJECT_DIR$/freelance/templates/Orders/remont/reshetki.html" />
+        <option value="$PROJECT_DIR$/freelance/templates/Orders/remont/beton.html" />
+        <option value="$PROJECT_DIR$/freelance/templates/Orders/remont/natyazhnoi_potolok.html" />
+        <option value="$PROJECT_DIR$/freelance/templates/login.html" />
+        <option value="$PROJECT_DIR$/static/css/styls.css" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/freelance/templates/register.html" />
         <option value="$PROJECT_DIR$/freelance/urls.py" />
+        <option value="$PROJECT_DIR$/freelance/forms.py" />
+        <option value="$PROJECT_DIR$/freelance/models.py" />
+        <option value="$PROJECT_DIR$/freelance/admin.py" />
+        <option value="$PROJECT_DIR$/freelance/views.py" />
       </list>
     </option>
   </component>
@@ -239,6 +308,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -293,7 +363,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -355,23 +425,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FLS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FLS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FLS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -382,18 +437,18 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\arif\PycharmProjects\FLS\freelance\templates\Orders\remont" />
-      <recent name="C:\Users\arif\PycharmProjects\FLS" />
-      <recent name="C:\Users\arif\PycharmProjects\FLS\static\images" />
-      <recent name="C:\Users\arif\PycharmProjects\FLS\static" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\arif\PycharmProjects\FLS\freelance\templates\Orders\remont" />
       <recent name="C:\Users\arif\PycharmProjects\FLS\static\js" />
       <recent name="C:\Users\arif\PycharmProjects\FLS\templates" />
       <recent name="C:\Users\arif\PycharmProjects\FLS" />
       <recent name="C:\Users\arif\PycharmProjects\FLS\freelance" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\arif\PycharmProjects\FLS\freelance\templates\Orders\remont" />
+      <recent name="C:\Users\arif\PycharmProjects\FLS" />
+      <recent name="C:\Users\arif\PycharmProjects\FLS\static\images" />
+      <recent name="C:\Users\arif\PycharmProjects\FLS\static" />
     </key>
   </component>
   <component name="RunManager" selected="Django server.FLS">
@@ -676,17 +731,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2803838" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15298508" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28997868" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2889126" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="manage.py@FLS" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.267316" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33116883" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21536796" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -695,8 +750,8 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="manage.py@FLS" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -707,138 +762,12 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/freelance/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="34" lean-forward="false" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/freelance/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="4" column="72" lean-forward="false" selection-start-line="4" selection-start-column="72" selection-end-line="4" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/freelance/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-            <element signature="e#339#1693#0" expanded="false" />
-            <element signature="e#1722#1914#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/freelance/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/freelance/templates/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="51" lean-forward="false" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/freelance/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/freelance/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="50" column="35" lean-forward="false" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FLS/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1207">
-          <caret line="71" column="23" lean-forward="false" selection-start-line="71" selection-start-column="23" selection-end-line="71" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/freelance/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/freelance/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/freelance/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="51" column="19" lean-forward="false" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-            <element signature="e#339#1693#0" expanded="false" />
-            <element signature="e#1722#1914#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/freelance/templates/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="51" lean-forward="false" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/freelance/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -851,19 +780,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#139#445#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/60252c24/352bd6d3-4798-4c2d-be91-9eb370264b59/Workers">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -889,50 +820,26 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/60252c24/352bd6d3-4798-4c2d-be91-9eb370264b59/freelance_work">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/60252c24/352bd6d3-4798-4c2d-be91-9eb370264b59/freelance_region">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/60252c24/352bd6d3-4798-4c2d-be91-9eb370264b59/Workers">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/60252c24/352bd6d3-4798-4c2d-be91-9eb370264b59/Workers_region">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -940,7 +847,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -958,46 +864,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/freelance/templates/mainpage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/freelance/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/freelance/templates/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="51" lean-forward="false" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/freelance/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/freelance/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FLS/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1011,145 +877,274 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/styls.css">
+    <entry file="file://$PROJECT_DIR$/templates/contacts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="148" column="19" lean-forward="false" selection-start-line="148" selection-start-column="19" selection-end-line="148" selection-end-column="19" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="29" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/freelance/templates/Orders/remont/remont_pomesheniy.html" />
+    <entry file="file://$PROJECT_DIR$/freelance/templates/Orders/remont/plitochnie_raboti.html" />
+    <entry file="file://$PROJECT_DIR$/freelance/templates/Orders/remont/remont_krishi.html" />
+    <entry file="file://$PROJECT_DIR$/freelance/templates/Orders/remont/parket.html" />
+    <entry file="file://$PROJECT_DIR$/freelance/templates/Orders/remont/vodoprovod.html" />
+    <entry file="file://$PROJECT_DIR$/FLS/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/cityes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="e#1216#1257#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="289">
+          <caret line="17" column="89" lean-forward="true" selection-start-line="17" selection-start-column="89" selection-end-line="17" selection-end-column="89" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/contacts.html">
+    <entry file="file://$PROJECT_DIR$/freelance/templates/mainpage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/freelance/templates/Orders/remont/pokraska_sten.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="69" column="24" lean-forward="false" selection-start-line="66" selection-start-column="11" selection-end-line="69" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/freelance/templates/Orders/remont/osteklenie_balkonov.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="59" column="11" lean-forward="true" selection-start-line="59" selection-start-column="11" selection-end-line="59" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/freelance/templates/Orders/remont/disign_interier.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-29">
+          <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/freelance/templates/Orders/remont/krovlya.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="24" column="49" lean-forward="true" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/freelance/templates/Orders/remont/obshivka.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="8" lean-forward="false" selection-start-line="34" selection-start-column="8" selection-end-line="40" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/freelance/templates/Orders/remont/poli.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="44" lean-forward="false" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/freelance/templates/Orders/remont/santehnika.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="10" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="45" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/freelance/templates/Orders/remont/potolki.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="22" column="75" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="80" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/freelance/templates/Orders/remont/kosmetik_remont.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-272">
+          <caret line="35" column="27" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="107" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/freelance/templates/Orders/remont/gipsokarton_peregorodki.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="3" column="27" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="48" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/freelance/templates/Orders/remont/remont_vannoy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/freelance/templates/Orders/remont/beton.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/freelance/templates/Orders/remont/oboi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="27" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="43" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/freelance/templates/Orders/remont/natyazhnoi_potolok.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="29" selection-end-column="20" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/freelance/templates/Orders/remont/reshetki.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="39" column="16" lean-forward="true" selection-start-line="37" selection-start-column="8" selection-end-line="39" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/freelance/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="64" lean-forward="false" selection-start-line="2" selection-start-column="64" selection-end-line="2" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/styls.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="717">
+          <caret line="150" column="6" lean-forward="false" selection-start-line="150" selection-start-column="1" selection-end-line="150" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="79" lean-forward="false" selection-start-line="12" selection-start-column="79" selection-end-line="12" selection-end-column="79" />
+        <state relative-caret-position="306">
+          <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/freelance/templates/Orders/remont/pokraska_sten.html">
+    <entry file="file://$PROJECT_DIR$/freelance/templates/Orders/remont/plitka.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="77" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="24" selection-end-column="77" />
-          <folding>
-            <element signature="n#block#1;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="-230">
+          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="14" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/freelance/templates/Orders/remont/gas_systems.html">
+    <entry file="file://$PROJECT_DIR$/freelance/templates/Orders/remont/pod_kluch.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="n#block#1;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="493">
+          <caret line="90" column="14" lean-forward="true" selection-start-line="64" selection-start-column="12" selection-end-line="90" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/freelance/templates/Orders/remont/remont_pomesheniy.html">
+    <entry file="file://$PROJECT_DIR$/freelance/templates/Orders/remont/otoplenie.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="n#block#1;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="102">
+          <caret line="76" column="22" lean-forward="false" selection-start-line="75" selection-start-column="8" selection-end-line="76" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/freelance/templates/Orders/remont/plitochnie_raboti.html">
+    <entry file="file://$PROJECT_DIR$/freelance/forms.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/60252c24/352bd6d3-4798-4c2d-be91-9eb370264b59/Workers">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/freelance/templates/Orders/remont/remont_krishi.html">
-      <provider selected="true" editor-type-id="text-editor">
+    <entry file="dbDummy://dbtable:/60252c24/352bd6d3-4798-4c2d-be91-9eb370264b59/Workers_region">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/freelance/templates/Orders/remont/parket.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/freelance/templates/Orders/remont/vodoprovod.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/freelance/templates/Orders/remont/obshivka.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-          <folding>
-            <element signature="n#block#1;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/freelance/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FLS/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/freelance/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="91" column="60" lean-forward="false" selection-start-line="91" selection-start-column="60" selection-end-line="91" selection-end-column="60" />
+        <state relative-caret-position="947">
+          <caret line="317" column="0" lean-forward="false" selection-start-line="317" selection-start-column="0" selection-end-line="332" selection-end-column="0" />
           <folding>
-            <element signature="e#0#36#0" expanded="true" />
-            <element signature="e#339#1693#0" expanded="false" />
-            <element signature="e#1722#1914#0" expanded="false" />
+            <element signature="e#139#445#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/freelance/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/freelance/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        <state relative-caret-position="102">
+          <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/freelance/templates/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="31" column="70" lean-forward="false" selection-start-line="31" selection-start-column="64" selection-end-line="31" selection-end-column="70" />
+          <folding>
+            <element signature="n#style#0;n#label#6;n#form#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#7;n#form#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/freelance/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="36" column="44" lean-forward="true" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,29 +1,48 @@
 {% extends 'index.html' %}
 
 {% block content %}
-<form action="/obshivka_save_order/" class="order_form" method = post>
+<form action="/uteplenie_save_order/" class="order_form" method = post>
 {% csrf_token %}
-    <p>Сколько квадратных метров нужно покрасить?</p>
+        <p>Приблизительная площадь фасада?</p>
         <label>
-            <input type="text">
+            <input type="text" name="ploshad" required>
         </label>
-        <label>
-            <input type="checkbox" name="" id="" value="Потолок нужно красить?">
-            Сделать наличники
+        <p>Предпочтения по материалу утепления?</p>
+        <label for="">
+            <select name="material" id="">
+                <option value="Не важно">Не важно</option>
+                <option value="Минеральная вата">Минеральная вата</option>
+                <option value="Пенополистерол">Пенополистерол</option>
+                <option value="Жидкий утеплитель(пенополиуритан)">Жидкий утеплитель(пенополиуритан)</option>
+            </select>
         </label>
-        <p>Кто предоставляет расходные материалы?</p>
+        <p>Количество откосов (в погонных метрах)</p>
+        <label for=""><input type="text" name="otkosi" id=""></label>
+        <p style="width: 49.7%;display: inline-block">Финишное покрытие?</p>
+        <p style="width: 49.7%;display: inline-block">Материал покрытия</p>
+        <label for="" class="adres">
+            <select name="finish" id="finishnoe_pokritie">
+                <option value="Не нужно">Нет</option>
+                <option value="Нужно">Да</option>
+            </select>
+            <select name="finish_material" id="material_fin_pok">
+                <option value="Не выбрано">Не выбрано</option>
+                <option value="Штукатурный фассад">Штукатурный фассад</option>
+                <option value="Камешковая фаткура">Камешковая фаткура</option>
+                <option value="Короед">Короед</option>
+            </select>
+        </label>
+        <p>Материал предоставляет:</p>
         <label>
-            <select name="" id="">
-                <option value="">Не имеет значения</option>
-                <option value="">Я</option>
-                <option value="">Исполнитель заказа</option>
+            <select name="material_ot" id="">
+                <option value="заказчик">Заказчик</option>
+                <option value="исполнитель">Исполнитель</option>
             </select>
         </label>
         <p>Другие детали:</p>
-        <label><textarea name="" id="" cols="10" rows="4"></textarea></label>
-        <p>В какие сроки нужно выполнить работу?</p>
-        <label><input type="text"></label>
-    {% block contacts%}
+        <label><textarea name="details" id="" cols="10" rows="4"></textarea></label>
+        <p>Бюджет(какой суммой располагаете)?</p>
+         <label for=""><input type="text" name="money" id=""></label>
             <p>Выберите район:</p>
             <label for="" class="adres">
                 <select name="city" id="city" >
@@ -41,17 +60,28 @@
             </label>
             <p>Введите ваш номер телефона:</p>
             <label for="">
-                <input type="text" id="phone" name="phone">
+                <input type="text" id="phone" name="phone" required>
             </label>
              <p>Введите ваш email:</p>
             <label for="">
-                <input type="email" name = "email">
+                <input type="email" name = "email" required>
             </label>
 
                 <div class="create-order">
                     <input type="submit" value="Оформить">
                 </div>
             {% csrf_token %}
-        {%endblock%}
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $("#material_fin_pok").attr('disabled',true);
+                $("#finishnoe_pokritie").change(function () {
+                    var selected = $("#finishnoe_pokritie").val();
+                    switch (selected){
+                        case "Нужно": $("#material_fin_pok").attr('disabled',false);break;
+                        case "Не нужно": $("#material_fin_pok").attr('disabled',true);break;
+                    }
+                })
+            })
+        </script>
 </form>
 {% endblock %}

@@ -1,6 +1,6 @@
 {% extends "index.html" %}
 {% block content %}
-    <form action="/login/check/" method="post">
+    <form action="/login/check/" method="post" class="order_form">
         {% csrf_token %}
         <h2>Вход:</h2>
         {{ form }}

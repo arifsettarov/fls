@@ -1,41 +1,15 @@
+natyazhnoi_potolok
+
 {% extends "index.html" %}
-
-
 {% block content %}
-    <form action="/pokraska_save_order/" method="post">
 
-     <div class="order_form">
-        <p>Сколько кв./м. вы хотите покрасить?</p>
+    <form action="/beton_save_order/" method="post">
+    {% csrf_token %}
+    <div class="order_form">
+        <p>Укажите площадь под заливку?</p>
         <label>
-            <input type="text" name = "ploshad" required>
+            <input type="text" name="ploshad" required>
         </label>
-        <p>Количество комнат?</p>
-        <label>
-            <select name="rooms">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="6plus">Больше 6</option>
-            </select>
-        </label>
-        <p>Нужно ли красить потолки?</p>
-        <label for="">
-            <select name="potolki" id="">
-                <option value="не требуется">Не нужно</option>
-                <option value="требуется">Нужно</option>
-            </select>
-        </label>
-        <p>Материал предоставляет:</p>
-        <label>
-            <select name="material_ot" id="">
-                <option value="заказчик">Заказчик</option>
-                <option value="исполнитель">Исполнитель</option>
-            </select>
-        </label>
-
         <p>Другие детали:</p>
         <label><textarea name="details" id="" cols="10" rows="4"></textarea></label>
         <p>Бюджет(какой суммой располагаете)?</p>
@@ -67,10 +41,6 @@
             <div class="create-order">
                 <input type="submit" value="Оформить">
             </div>
-        {% csrf_token %}
-
-     </div>
+    </div>
     </form>
-
 {% endblock %}
-

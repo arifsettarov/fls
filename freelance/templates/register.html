@@ -1,9 +1,111 @@
 {% extends "index.html" %}
 {% block content %}
-    <form action="/register/new-user/" method="post">
+    <form action="/register/new-user/" method="post" class="order_form">
         {% csrf_token %}
         <h3>Новый пользователь</h3>
-        {{ form }}
-        <input type="submit" value="Зарегистрироваться" class="button">
+        <p>Фамилия:</p>
+        <label for="">
+            <input type="text" name="surname" id="">
+        </label>
+        <p>Имя:</p>
+        <label for="">
+            <input type="text" name="name" id="">
+        </label>
+        <p>E-mail:</p>
+        <label for=""><input type="email" name="email" id=""></label>
+        <p>Телефон:</p>
+        <label for="">
+            <input type="text" id="phone" name="phone" required>
+        </label>
+        <p>СНИЛС:</p>
+        <label for=""><input type="text" name="snils"></label>
+        <p>Пароль:</p>
+        <label for=""><input type="password" name="password" id="pass"></label>
+        <p>Виды выполняемых работ:</p>
+        <label for="" class="works" style="margin-left: 15px;">
+            <label><input type="checkbox" name="" id="1" value="Побелить покрасить"> Побелить покрасить</label>
+            <label><input type="checkbox" name="" id="2" value="Утепление фасадов"> Утепление фасадов</label>
+            <label><input type="checkbox" name="" id="3" value="Дизайн интерьер/проект"> Дизайн интерьер/проект</label>
+            <label><input type="checkbox" name="" id="4" value="Отопление"> Отопление</label>
+            <label><input type="checkbox" name="" id="5" value="Остекление балконов"> Остекление балконов</label>
+            <label><input type="checkbox" name="" id="6" value="Косметический ремонт"> Косметический ремонт</label>
+            <label><input type="checkbox" name="" id="7" value="Плитка"> Плитка</label>
+            <label><input type="checkbox" name="" id="8" value="Кровля"> Кровля</label>
+            <label><input type="checkbox" name="" id="9" value="Полы"> Полы</label>
+            <label><input type="checkbox" name="" id="10" value="Работы под ключ"> Работы под ключ</label>
+            <label><input type="checkbox" name="" id="11" value="Сантехника"> Сантехника</label>
+            <label><input type="checkbox" name="" id="12" value="Потолки"> Потолки</label>
+            <label><input type="checkbox" name="" id="13" value="Гипсокартонные перегородки"> Гипс. перегородки</label>
+            <label><input type="checkbox" name="" id="14" value="Ремонт ванной"> Ремонт ванной</label>
+            <label><input type="checkbox" name="" id="15" value="Решетки на окна"> Решетки на окна</label>
+            <label><input type="checkbox" name="" id="16" value="Поклейка обоев"> Поклейка обоев</label>
+            <label><input type="checkbox" name="" id="17" value="Бетонные работы"> Бетонные работы</label>
+            <label><input type="checkbox" name="" id="18" value="Натяжные потолки"> Натяжные потолки</label>
+        </label>
+        <input type="hidden" name="works" id="works">
+
+        <p>Регионы работы:</p>
+        <label for="" style="margin-left: 15px;">
+            <label><input type="checkbox" name="" id="simf" value="Симферополь"> Симферополь</label>
+            <label><input type="checkbox" name="" id="sevas" value="Севастополь"> Севастополь</label>
+        </label>
+        <input type="hidden" name="city" id="city">
+        <input type="submit" value="Зарегистрироваться" class="button" id="reg_button">
+        <script>
+            $(document).ready(function () {
+
+                var works = "";
+                var city= "";
+                $(":checkbox").change(function () {
+                    works = "";
+                    city = "";
+                  if($("#1").prop("checked")==true){
+                      works = works + $("#1").val()+"; ";
+                  }if($("#2").prop("checked")==true){
+                      works = works + $("#2").val()+"; ";
+                  }if($("#3").prop("checked")==true){
+                      works = works + $("#3").val()+"; ";
+                  }if($("#4").prop("checked")==true){
+                      works = works + $("#4").val()+"; ";
+                  }if($("#5").prop("checked")==true){
+                      works = works + $("#5").val()+"; ";
+                  }if($("#6").prop("checked")==true){
+                      works = works + $("#6").val()+"; ";
+                  }if($("#7").prop("checked")==true){
+                      works = works + $("#7").val()+"; ";
+                  }if($("#8").prop("checked")==true){
+                      works = works + $("#8").val()+"; ";
+                  }if($("#9").prop("checked")==true){
+                      works = works + $("#9").val()+"; ";
+                  }if($("#10").prop("checked")==true){
+                      works = works + $("#10").val()+"; ";
+                  }if($("#11").prop("checked")==true){
+                      works = works + $("#11").val()+"; ";
+                  }if($("#12").prop("checked")==true){
+                      works = works + $("#12").val()+"; ";
+                  }if($("#13").prop("checked")==true){
+                      works = works + $("#13").val()+"; ";
+                  }if($("#14").prop("checked")==true){
+                      works = works + $("#14").val()+"; ";
+                  }if($("#15").prop("checked")==true){
+                      works = works + $("#15").val()+"; ";
+                  }if($("#16").prop("checked")==true){
+                      works = works + $("#16").val()+"; ";
+                  }if($("#17").prop("checked")==true){
+                      works = works + $("#17").val()+"; ";
+                  }if($("#18").prop("checked")==true){
+                      works = works + $("#18").val()+"; ";
+                  }if($("#simf").prop("checked")==true){
+                      city = city + $("#simf").val()+"; ";
+                  }if($("#sevas").prop("checked")==true){
+                      city = city + $("#sevas").val()+"; ";
+                  }
+
+                  $("#works").val(works);
+                  $("#city").val(city);
+
+                })
+            })
+        </script>
     </form>
 {% endblock %}

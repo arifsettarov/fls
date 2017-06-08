@@ -1,0 +1,81 @@
+{% extends "index.html" %}
+{% block content %}
+
+    <form action="/potolki_save_order/" method="post">
+    {% csrf_token %}
+    <div class="order_form">
+        <p>Укажите площадь вашего потолка?</p>
+        <label>
+            <input type="text" name="ploshad" required>
+        </label>
+        <p>Предпочтения по материалам:</p>
+        <label for=""><select name="material" id="">
+            <option value="Гипсокартон">Гипсокартон</option>
+            <option value="Подвесной">Подвесной</option>
+            <option value="Натяжной">Натяжной</option>
+            <option value="Шпатлевка">Шпатлевка</option>
+            <option value="Покраска">Покраска</option>
+        </select></label>
+        <p>Изоляция:</p>
+        <label for="">
+            <p><input type="checkbox" name="" id="1" value="Водоизоляция"> Водоизоляция</p>
+            <p><input type="checkbox" name="" id="2" value="Теплоизоляция"> Теплоизоляция</p>
+            <p><input type="checkbox" name="" id="3" value="Шумоизоляция"> Шумоизоляция</p>
+        </label>
+        <input type="hidden" name="isol" id="isol">
+        <p>Необходим ли монтаж светотехники?</p>
+        <label for=""><select name="svet" id="">
+            <option value="Не нужен">Нет</option>
+            <option value="Нужен">Да</option>
+        </select></label>
+        <p>Другие детали:</p>
+        <label><textarea name="details" id="" cols="10" rows="4"></textarea></label>
+        <p>Бюджет(какой суммой располагаете)?</p>
+         <label for=""><input type="text" name="money" id=""></label>
+        <p>Выберите район:</p>
+        <label for="" class="adres">
+            <select name="city" id="city" >
+                <option value="Симферополь">Симферополь</option>
+                <option value="Севастополь">Севастополь</option>
+            </select>
+            <select name="district" id="district">
+                <option value="Центр">Центр</option>
+                <option value="Ж/Д">Ж/Д</option>
+                <option value="Москольцо">Москольцо</option>
+                <option value="Севастопольскя">Севастопольская</option>
+                <option value="пл.Куйбышева">пл.Куйбышева</option>
+                <option value="Марьино">Марьино</option>
+            </select>
+        </label>
+        <p>Введите ваш номер телефона:</p>
+        <label for="">
+            <input type="text" id="phone" name="phone" required>
+        </label>
+         <p>Введите ваш email:</p>
+        <label for="">
+            <input type="email" name = "email" required>
+        </label>
+
+            <div class="create-order">
+                <input type="submit" value="Оформить">
+            </div>
+    </div>
+    <script type="text/javascript">
+            $(document).ready(function () {
+                var works = "";
+                $(":checkbox").change(function () {
+                        works = "";
+                        if ($("#1").prop("checked") == true) {
+                            works = works + $("#1").val() + "; ";
+                        }
+                        if ($("#2").prop("checked") == true) {
+                            works = works + $("#2").val() + "; ";
+                        }
+                        if ($("#3").prop("checked") == true) {
+                            works = works + $("#3").val() + "; ";
+                        }
+                        $("#isol").val(works);
+                    });})
+                </script>
+    </form>
+{% endblock %}

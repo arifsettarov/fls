@@ -148,3 +148,7 @@ section.object{
 .create-order>input:hover{
     cursor: pointer;
 }
+.works{
+    width: 150px;
+    display: inline-block;
+}

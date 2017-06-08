@@ -1,0 +1,134 @@
+{% extends "index.html" %}
+{% block content %}
+<form action="/otoplenie_save_order/" class="order_form" method = post>
+{% csrf_token %}
+<p>Вид помещения:</p>
+    <label for=""><select name="room_type" id="">
+        <option value="Частный дом">Жилой дом</option>
+        <option value="Квартира">Квартира</option>
+        <option value="Офис">Офис</option>
+        <option value="Магазин">Магазин</option>
+        <option value="Кафе/Ресторан">Кафе/Ресторан</option>
+        <option value="Гостиница/Отель">Гостиница/Отель</option>
+        </select>
+    </label>
+    <p>Какая площадь помещения?</p>
+    <label>
+            <input type="text" name = "ploshad" required>
+    </label>
+    <p>Что нужно сделать?</p>
+    <label for="" class="works">
+        <p><input type="checkbox" name="" id="1" value="Проектирование"> Проектирование</p>
+        <p><input type="checkbox" name="" id="2" value="Прокладка теплого пола(водяного)"> Прокладка теплого пола(водяного)</p>
+        <p><input type="checkbox" name="" id="3" value="Прокладка теплого пола(электрического)"> Прокладка теплого пола(электрического)</p>
+        <p><input type="checkbox" name="" id="4" value="Подвод труб под радиаторы"> Подвод труб под радиаторы</p>
+        <p><input type="checkbox" name="" id="5" value="Установка радиаторов"> Установка радиаторов</p>
+        <p><input type="checkbox" name="" id="6" value="Замена существующего отопления"> Замена существующего отопления</p>
+        <p><input type="checkbox" name="" id="7" value="Обслуживание существующего отопления"> Обслуживание существующего отопления</p>
+    </label>
+    <input type="hidden" name="works" value="" id ="works">
+    <p>Установка котла?</p>
+    <label for="">
+        <span style="width: 25%;display: inline-block"><p><input type="checkbox" name="" id="gaz" value="Газовый"> Газовый котёл</p></span>
+        <span style="width: 70%;display: inline-block"><p><input type="checkbox" name="" id="gaz_2" value="двухконтурный"> Двухконтурный</p></span>
+        <hr style="width: 40%;margin: 0;padding: 0; margin-bottom: 15px; margin-top: -10px;">
+        <span style="width: 25%;display: inline-block"><p><input type="checkbox" name="" id="electro" value="Элекстрический">Электрический котёл</p></span>
+        <span style="width: 70%;display: inline-block"><input type="checkbox" name="" id="electro_2" value="двухконтурный" disabled>Двухконтурный</span>
+    </label>
+    <input type="hidden" name="kotyol" value="" id ="kotyol">
+        <p>Другие детали:</p>
+        <label><textarea name="details" id="" cols="10" rows="4"></textarea></label>
+        <p>Бюджет(какой суммой располагаете)?</p>
+         <label for=""><input type="text" name="money" id=""></label>
+        <p>Выберите район:</p>
+        <label for="" class="adres">
+            <select name="city" id="city" >
+                <option value="Симферополь">Симферополь</option>
+                <option value="Севастополь">Севастополь</option>
+            </select>
+            <select name="district" id="district">
+                <option value="Центр">Центр</option>
+                <option value="Ж/Д">Ж/Д</option>
+                <option value="Москольцо">Москольцо</option>
+                <option value="Севастопольскя">Севастопольская</option>
+                <option value="пл.Куйбышева">пл.Куйбышева</option>
+                <option value="Марьино">Марьино</option>
+            </select>
+        </label>
+        <p>Введите ваш номер телефона:</p>
+        <label for="">
+            <input type="text" id="phone" name="phone" required>
+        </label>
+         <p>Введите ваш email:</p>
+        <label for="">
+            <input type="email" name = "email" required>
+        </label>
+     <div class="create-order">
+                <input type="submit" value="Оформить">
+            </div>
+    </form>
+
+<script>
+    $(document).ready(function () {
+        var works = "";
+        var kotel = "";
+        $("#gaz_2").attr("disabled",true);
+        $(":checkbox").change(function (){
+            works ="";
+            kotel = "";
+            if($("#1").prop("checked")==true){
+                works = works+$("#1").val()+"; ";
+            }if($("#2").prop("checked")==true){
+                works = works+$("#2").val()+"; ";
+            }if($("#3").prop("checked")==true){
+                works = works+$("#3").val()+"; ";
+            }if($("#4").prop("checked")==true){
+                works = works+$("#4").val()+"; ";
+            }if($("#5").prop("checked")==true){
+                works = works+$("#5").val()+"; ";
+            }if($("#6").prop("checked")==true){
+                works = works+$("#6").val()+"; ";
+            }if($("#7").prop("checked")==true){
+                works = works+$("#7").val()+"; ";
+            }
+
+            $('#works').val(works);
+
+            if($("#gaz").prop("checked")==true){
+                $("#gaz_2").removeAttr("disabled");
+                $("#electro").attr("disabled",true);
+                kotel = kotel + $("#gaz").val();
+            }
+            else {
+                $("#gaz_2").attr("disabled",true);
+                $("#electro").attr("disabled",false);
+            }
+            if($("#electro").prop("checked")==true){
+                $("#electro_2").removeAttr("disabled");
+                $("#gaz").attr("disabled",true);
+                kotel = kotel + $("#electro").val();
+            }
+            else {
+                $("#electro_2").attr("disabled",true);
+                $("#gaz").attr("disabled",false);
+            }
+            if($("#gaz_2").prop("checked")==true){
+                $("#gaz").attr("disabled",true);
+                kotel = kotel +" "+ $("#gaz_2").val();
+            }
+            if($("#electro_2").prop("checked")==true){
+                $("#electro").attr("disabled",true);
+                kotel = kotel + " "+$("#electro_2").val();
+            }
+            $("#kotyol").val(kotel);
+
+
+
+
+        })
+
+    });
+
+</script>
+
+{% endblock %}

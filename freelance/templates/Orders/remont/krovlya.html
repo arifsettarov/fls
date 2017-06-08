@@ -1,41 +1,25 @@
 {% extends "index.html" %}
-
-
 {% block content %}
-    <form action="/pokraska_save_order/" method="post">
 
-     <div class="order_form">
-        <p>Сколько кв./м. вы хотите покрасить?</p>
+    <form action="/krovlya_save_order/" method="post">
+    {% csrf_token %}
+    <div class="order_form">
+        <p>Площадь вашей кровли?</p>
         <label>
-            <input type="text" name = "ploshad" required>
+            <input type="text" name="ploshad" required>
         </label>
-        <p>Количество комнат?</p>
-        <label>
-            <select name="rooms">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="6plus">Больше 6</option>
-            </select>
-        </label>
-        <p>Нужно ли красить потолки?</p>
+        <p>Нужна ли поставка материала?</p>
+        <label for=""><select name="postavka_materiala" id="">
+            <option value="Не нужна">Нет</option>
+            <option value="Нужна">Да</option>
+        </select></label>
+
+        <p>Дополнительные элементы:</p>
         <label for="">
-            <select name="potolki" id="">
-                <option value="не требуется">Не нужно</option>
-                <option value="требуется">Нужно</option>
-            </select>
+            <p><input type="checkbox" name="Подшива" value="Подшива" id="1"> Подшива</p>
+            <p><input type="checkbox" name="Водосток" value="Водосток" id="2"> Водосток</p>
         </label>
-        <p>Материал предоставляет:</p>
-        <label>
-            <select name="material_ot" id="">
-                <option value="заказчик">Заказчик</option>
-                <option value="исполнитель">Исполнитель</option>
-            </select>
-        </label>
-
+        <input type="hidden" name="dop" id="dop">
         <p>Другие детали:</p>
         <label><textarea name="details" id="" cols="10" rows="4"></textarea></label>
         <p>Бюджет(какой суммой располагаете)?</p>
@@ -67,10 +51,21 @@
             <div class="create-order">
                 <input type="submit" value="Оформить">
             </div>
-        {% csrf_token %}
 
-     </div>
+    </div>
+        <script type="text/javascript">
+            var dop = "";
+            $(document).ready(function () {
+                $(":checkbox").change(function () {
+                    dop="";
+                    if($("#1").prop("checked")==true){
+                        dop = dop+$("#1").val()+"; ";
+                    } if($("#2").prop("checked")==true){
+                        dop = dop+$("#2").val()+"; ";
+                    }
+                    $("#dop").val(dop);
+                })
+            })
+        </script>
     </form>
-
 {% endblock %}
-
